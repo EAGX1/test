@@ -10,3 +10,23 @@ h1 {
 p {
     color: orange;
 }
+
+body {
+    background-image: url(../images/cat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background: url(../images/cat.jpg), no-repeat, fixed, center, cover;
+    height: 200vh;
+}
+
+img{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border: 5px solid red;
+    border-top: 5px solid green;
+    border-radius: 5px 10px 15px 20px;
+    box-shadow: 10px 10px 20px purple;
+}

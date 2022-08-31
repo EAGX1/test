@@ -30,3 +30,44 @@ img{
     border-radius: 5px 10px 15px 20px;
     box-shadow: 10px 10px 20px purple;
 }
+
+body {
+    background-color: antiquewhite;
+    color: aliceblue;
+}
+
+.site-name {
+    text-align: center;
+}
+
+.info-container {
+    background-color: yellowgreen;
+    display: inline-block;
+    max-height: 200px;
+    max-width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid gray;
+    box-sizing: border-box;
+}
+
+.info-content {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+    background-color: aqua;
+    color: blueviolet;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: brown;
+    color: black;
+}

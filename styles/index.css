@@ -17,8 +17,9 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background: url(../images/cat.jpg), no-repeat, fixed, center, cover;
     height: 200vh;
+    background-color: antiquewhite;
+    color: aliceblue;
 }
 
 img{
@@ -29,11 +30,6 @@ img{
     border-top: 5px solid green;
     border-radius: 5px 10px 15px 20px;
     box-shadow: 10px 10px 20px purple;
-}
-
-body {
-    background-color: antiquewhite;
-    color: aliceblue;
 }
 
 .site-name {

@@ -11,6 +11,21 @@ p {
     color: orange;
 }
 
+.site-name {
+    text-align: center;
+    font-family: 'Lobster', cursive; 
+}
+
+.info-container {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fa-solid{
+    color: lime;
+}
+ 
 body {
     background-image: url(../images/cat.jpg);
     background-repeat: no-repeat;
